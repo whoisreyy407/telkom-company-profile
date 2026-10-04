@@ -36,7 +36,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 
                 <strong>Telkom University</strong> 
 
-                <small>Simulasi Company Profile</small> 
+                <small> Company Profile</small> 
 
             </span> 
 
