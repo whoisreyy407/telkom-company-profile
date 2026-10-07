@@ -28,6 +28,13 @@ require 'includes/header.php';
 
     </div> 
 
+    <h2>Fokus Pembelajaran</h2>
+    <ul>
+        <li>Pemrograman Web</li>
+        <li>Manajemen Basis Data</li>
+        <li>Pengembangan Sistem Informasi</li>
+    </ul>
+
 </section> 
 
 <?php require 'includes/footer.php'; ?> 
