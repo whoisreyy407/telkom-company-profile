@@ -26,14 +26,52 @@ require 'includes/header.php';
 
         <div class="alert alert-success">Konten institusi pada website ini bersifat simulasi untuk keperluan praktikum.</div> 
 
-    </div> 
+<!-- Section Fokus Pembelajaran -->
+<div style="margin-top: 32px; font-family: system-ui, -apple-system, sans-serif;">
+    
+    <!-- Judul Section -->
+    <h2 style="font-size: 28px; font-weight: 700; color: #1e293b; margin-bottom: 20px;">
+        Fokus Pembelajaran
+    </h2>
 
-    <h2>Fokus Pembelajaran</h2>
-    <ul>
-        <li>Pemrograman Web</li>
-        <li>Manajemen Basis Data</li>
-        <li>Pengembangan Sistem Informasi</li>
-    </ul>
+    <!-- Grid Card Poin Pembelajaran -->
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px;">
+        
+        <!-- Poin 1 -->
+        <div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-left: 4px solid #cc0310; border-radius: 8px; padding: 18px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); transition: transform 0.2s;">
+            <div style="font-size: 24px; margin-bottom: 8px;">🌐</div>
+            <h3 style="font-size: 16px; font-weight: 700; color: #0f172a; margin: 0 0 6px 0;">
+                Antarmuka Web
+            </h3>
+            <p style="font-size: 13px; color: #64748b; margin: 0; line-height: 1.5;">
+                Mendesain tampilan web yang responsif, bersih, dan mudah digunakan.
+            </p>
+        </div>
+
+        <!-- Poin 2 -->
+        <div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-left: 4px solid #cc0310; border-radius: 8px; padding: 18px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); transition: transform 0.2s;">
+            <div style="font-size: 24px; margin-bottom: 8px;">⚙️</div>
+            <h3 style="font-size: 16px; font-weight: 700; color: #0f172a; margin: 0 0 6px 0;">
+                Logika PHP & Basis Data
+            </h3>
+            <p style="font-size: 13px; color: #64748b; margin: 0; line-height: 1.5;">
+                Mengintegrasikan alur logika sistem dengan pengolahan database.
+            </p>
+        </div>
+
+        <!-- Poin 3 -->
+        <div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-left: 4px solid #cc0310; border-radius: 8px; padding: 18px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); transition: transform 0.2s;">
+            <div style="font-size: 24px; margin-bottom: 8px;">🔀</div>
+            <h3 style="font-size: 16px; font-weight: 700; color: #0f172a; margin: 0 0 6px 0;">
+                Version Control (Git)
+            </h3>
+            <p style="font-size: 13px; color: #64748b; margin: 0; line-height: 1.5;">
+                Mengelola riwayat perubahan kode secara terstruktur menggunakan Git.
+            </p>
+        </div>
+
+    </div>
+</div>
 
 </section> 
 
